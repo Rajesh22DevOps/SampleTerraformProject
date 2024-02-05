@@ -17,6 +17,7 @@ module "deployment" {
       container_port = "8080"
       service_port   = "80"
     },
+    
     {
       name           = "https"
       protocol       = "TCP"

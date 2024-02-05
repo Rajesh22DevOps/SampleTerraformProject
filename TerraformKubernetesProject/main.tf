@@ -698,6 +698,7 @@ resource "kubernetes_network_policy_v1" "deployment" {
         }
       }
     }
+    
     policy_types = var.network_policy_type
   }
 }

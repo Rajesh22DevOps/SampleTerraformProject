@@ -8,6 +8,7 @@ variable "namespace" {
   description = "Kubernetes namespace for deployment"
 }
 
+
 variable "image_name" {
   type        = string
   description = "Docker image to use"
